@@ -1,0 +1,63 @@
+body{
+  /* background-image: url("assets/images/movie.jpg"); */
+  background-color: rgb(214, 118, 150);
+}
+
+
+header {
+  /* background-color: #333; */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+  }
+.form{
+    /* box-shadow: rgba(49, 49, 192, 0.2) 0px 7px 29px 0px; */
+    background: #937dbb;
+  box-shadow: 0 8px 8px -4px white;
+    text-align:center;
+    /* top: 80px; */
+    position: relative;
+    width:60%;
+    height:400px;
+    /* background:#FFF; */
+    margin:40px auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  float: right;
+  padding: 10px;
+}
+form button[type="submit"],
+form button[type="reset"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+form button[type="submit"]:hover,
+form button[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+/* .register form button[type="submit"]:hover,
+.register form button[type="reset"]:hover {
+  background-color: #3e8e41;
+} */
+
+
